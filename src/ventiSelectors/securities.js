@@ -35,7 +35,7 @@ export const getDecoratedSecurity = (symbol, r) => {
 }
 
 export const getVisibleSecurities = () => {
-  const curStateSlice = getStateSlices()
+  // const curStateSlice = getStateSlices()
   const securities = getSecurities()
   const isHidingEmptyBalances = getBalancesOnlyFilter()
   const query = getQuery()
